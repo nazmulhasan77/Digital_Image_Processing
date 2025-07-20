@@ -5,3 +5,11 @@ ENV/
 .venv/
 .idea/
 .vscode/
+
+
+# Test / log / cache files
+*.log
+*.out
+*.bak
+*.swp
+**/.DS_Store

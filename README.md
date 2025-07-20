@@ -37,43 +37,22 @@ venv\Scripts\activate
 ---
 
 ### 3. Install Required Packages
-
-Install dependencies using `pip`:
-
-
-If you want to install **all commonly used Python libraries for Digital Image Processing (DIP)** including `matplotlib`, here’s a typical list and the pip command to install them all at once:
-
----
-
-### Common DIP libraries:
-
-* `matplotlib` — visualization and plotting
-* `numpy` — numerical computing (arrays, matrices)
-* `opencv-python` — OpenCV for advanced image processing
-* `scikit-image` — image processing algorithms
-* `Pillow` — image loading, saving, and basic manipulation
-* `imageio` — image input/output
-
----
-### Install all at once:
-
 ```bash
-pip install matplotlib numpy opencv-python scikit-image Pillow imageio
+pip install -r requirements.txt
 ```
+### 🔍 What Each Library Is For:
+
+| Library           | Purpose                                                             |
+| ----------------- | ------------------------------------------------------------------- |
+| **matplotlib**    | Plotting and visualizing images and graphs                          |
+| **numpy**         | Array operations and matrix math (core to image data manipulation)  |
+| **pandas**        | Data analysis and table-style data management (optional but useful) |
+| **opencv-python** | Advanced image processing and computer vision algorithms            |
+| **scikit-image**  | High-level image processing functions and filters                   |
+| **Pillow**        | Simple image file I/O (JPEG, PNG, BMP, etc.) and basic editing      |
+| **imageio**       | Image input/output for multiple formats including GIF, TIFF, etc.   |
+
 ---
-
-| Package       | Purpose                                     |
-| ------------- | ------------------------------------------- |
-| matplotlib    | Plotting images and graphs                  |
-| numpy         | Efficient numerical arrays                  |
-| opencv-python | Computer vision and image processing        |
-| scikit-image  | High-level image processing algorithms      |
-| Pillow        | Image file reading/writing and manipulation |
-| imageio       | Reading/writing images in many formats      |
-
----
-
-
 
 
 ## 📝 License
