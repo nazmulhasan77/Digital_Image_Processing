@@ -5,3 +5,4 @@ opencv-python
 scikit-image
 Pillow
 imageio
+tensorflow

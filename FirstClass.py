@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 def main():
     # Load an image
-    img_path = '/home/nazmul77/Desktop/Digital_Image_Processing/Images/RGB_Image.png'
+    img_path = 'Images/RGB_Image.jpg'
     img_4D = plt.imread(img_path)
     print(img_4D.shape)
     
